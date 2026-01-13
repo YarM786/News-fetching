@@ -16,7 +16,7 @@ NEWS_API_KEY = "YOUR_NEWSAPI_KEY"
 def fetch_news(category, count):
     url = (
         f"https://newsapi.org/v2/top-headlines?"
-        f"category={category}&language=en&pageSize={count}&apiKey={NEWS_API_KEY}"
+        f"category={category}&language=en&pageSize={count}&apiKey={38758c61623c40e397d8a0671c25e91b}"
     )
     response = requests.get(url)
     data = response.json()
